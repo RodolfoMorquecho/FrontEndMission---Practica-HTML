@@ -1,0 +1,187 @@
+body{
+    font-family: arial, helvetica;
+    background:hsl(0, 0%, 99%);
+}
+
+.menu{
+    list-style: none;
+    text-align: end;
+    padding: 0;
+    background: #8D00D2;
+    width: 100%;
+    max-width: 1550px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 30px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #F01198;
+}
+
+
+div{
+    width: 200px;
+    height: 290px;
+    background: #FED9F0;
+    color: black;
+    font-size: 15;
+    text-align: center;
+    border-radius: 7px;
+    padding: 5;
+    border: 5px solid #000;
+}
+
+.caja_padre{
+    width: 1500px;
+    height: 800px;
+    background: #8D00D2;
+    position: relative;
+}
+
+.caja1{
+    position: absolute;
+    top: 60px ;
+    bottom: ;
+    right: ;
+    left: 50px;
+}
+
+.caja2{
+    position: absolute;
+    top: ;
+    bottom: 440px;
+    right: ;
+    left: 350px;
+}
+
+.caja3{
+    position: absolute;
+    top: ;
+    bottom: 440px;
+    right: ;
+    left: 650px;
+}
+
+.caja4{
+    position: absolute;
+    top: ;
+    bottom: 440px;
+    right: ;
+    left: 950px;
+}
+
+.caja5{
+    position: absolute;
+    top: ;
+    bottom: 440px;
+    right: ;
+    left: 1250px;
+}
+
+.caja6{
+    position: absolute;
+    top: 400px;
+    bottom: ;
+    right: ;
+    left: 50px;
+}
+
+.caja7{
+    position: absolute;
+    top: 400px;
+    bottom: ;
+    right: ;
+    left: 350px;
+}
+
+.caja8{
+    position: absolute;
+    top: 400px;
+    bottom: ;
+    right: ;
+    left: 650px;
+}
+
+.caja9{
+    position: absolute;
+    top: 400px;
+    bottom: ;
+    right: ;
+    left: 950px;
+}
+
+.caja10{
+    position: absolute;
+    top: 400px;
+    bottom: ;
+    right: ;
+    left: 1250px;
+}
+
+
+.caja_padre_dos{
+    width: 1500px;
+    height: 400px;
+    background: #f1045f;
+    position: relative;
+}
+
+.caja_adorno1{
+    position: absolute;
+    top: 60px;
+    bottom: ;
+    right: ;
+    left: 50px;
+}
+
+.caja_adorno2{
+    position: absolute;
+    top: 60px ;
+    bottom: ;
+    right: ;
+    left: 350px;
+}
+
+.caja_adorno3{
+    position: absolute;
+    top:60px  ;
+    bottom: ;
+    right: ;
+    left: 650px;
+}
+
+.caja_adorno4{
+    position: absolute;
+    top: 60px ;
+    bottom: ;
+    right: ;
+    left: 950px;
+}
+
+.caja_adorno5{
+    position: absolute;
+    top: 60px ;
+    bottom: ;
+    right: ;
+    left: 1250px;
+}
+
+.logoSuperior{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 15px;
+    
+}

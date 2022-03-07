@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+
+<body>
+    <ul class="menu">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="#">Sabores</a></li>
+        <li><a href="#">Adornos</a></li>
+        <li><a href="./inventario.html">Inventario</a></li>
+        <li><a href="./pedidos.html"">Ordena</a></li>
+    </ul>
+
+        <h1 align=center>Aqui puedes hacer tu pedido del Pastel</h1>
+        <form action="/accion.js" id="form1" method="post">
+            <p align="center">
+                <label for="Input1"> Nombre </label><br>
+                <input type="text" placeholder="Ingresa tu nombre" id="Input1" name="Input1"><br><br>
+    
+                <label for="correo1">Correo electronico</label><br>
+                <input type="email" placeholder="Ejemplo@hotmail.com" id="correo1" name="correo1"><br><br>
+    
+                <label for="numero1">Numero de pasteles</label><br>
+                <input type="number" placeholder="Cantidad" id="numero1" name="numero1"><br><br>
+    
+                <label for="tel1">Numero de telefono</label><br>
+                <input type="tel" placeholder="Telefono a 10 Digitos" id="tel1" name="tel1" maxlength="10"><br><br>
+    
+                <label for="fecha1">Fecha de entrega</label><br>
+                <input type="date" id="fecha1" name="fecha1"><br>
+                <br>
+                <label for="Sabor">Elige tu sabor</label><br>
+                <select id="Sabor" name="Sabor">
+                    <option value="cheesecake">cheesecake Tortuga</option>
+                    <option value="aleman">pastel aleman</option>
+                    <option value="bombon">pastel de bombón</option>
+                    <option value="carlosV">pastel Carlos V</option>
+                    <option value="chocolateClaro">pastel de chocolate claro</option>
+                    <option value="combinado">pastel combinado</option>
+                    <option value="cubano">pastel cubano</option>
+                    <option value="diplomatico">pastel diplomatico</option>
+                    <option value="selvaNegra">pastel selva negra</option>
+                    <option value="milkyway">pastel tipo milkyway</option>
+                </select><br><br>
+    
+    
+                <label for="decoracion">Escoge tu adorno o decoracion</label><br>
+                <select id="decoracion" name="decoracion">
+                    <option value="Ninguno"> Ninguna</option>
+                    <option value="Fondant">Fondant </option>
+                    <option value="chispasColores">chispas de colores</option>
+                    <option value="ChispasChocolate">chispas de chocolate</option>
+                    <option value="avellana">crema de avellana</option>
+                    <option value="fresas">fresas</option>
+                </select><br><br>
+    
+                <label for="Input2"> ingresa tu dirección</label><br>
+                <input type="text" placeholder="Calle y numero" id="Input2" name="Input2"><br><br>
+    
+    
+                <input type="button" id="boton1" name="boton1" value="Enviar pedido"
+                    onclick="alert('Tu pedido esta agendado');"><br><br>
+                <input type="reset"><br>
+        </form>
+    </p>
+
+
